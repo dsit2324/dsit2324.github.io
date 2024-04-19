@@ -1,0 +1,115 @@
+
+body {
+  font-family: Arial, sans-serif;
+  background-color: #f2f2f2;
+}
+
+#obal {
+  max-width: 960px; 
+  margin: 0 auto; 
+  border: 1px solid #ccc; 
+  padding: 20px; 
+  background-color: #fff; 
+  color: #333; 
+}
+
+nav {
+  background-color: #222;
+  margin: -20px;
+  margin-bottom: 20px;
+  padding: 20px;
+  font-size: 1.1em;
+  color: lightgray;
+}
+
+nav a {
+  padding: 19px;
+  text-decoration: none;
+  color: lightgray;
+}
+
+nav a:hover {
+  color: white;
+  background-color: rgb(0,153,204);
+}
+
+h1 {
+  text-align: center; 
+  font-size: 2em; 
+  font-weight: bold; 
+  color: rgb(0,153,204);; 
+  text-transform: uppercase;
+  line-height: 2em;
+}
+
+h2, h3 {
+  font-weight: 200; 
+  line-height: 2em;
+}
+
+h2 {
+  font-size: 1.6em;
+  color: rgb(102,153,0);
+}
+
+h3 { 
+  font-size: 1.2em;
+  border-bottom: 1px dotted rgb(102, 153, 0);
+}
+
+p, li {
+  line-height: 1.5em;
+  margin: 1em 0;
+}
+
+p {
+  text-align: justify;
+}
+
+li {
+  list-style-type: square;
+  list-style-position: outside;
+  margin-left: 20px;
+}
+
+strong{
+  font-weight: bold;
+  color: rgb(0,153,204);
+}
+
+strong.big {
+  font-weight: bold;
+  color: black;
+}
+
+mark {
+  background-color: rgb(102,153,0);
+  color: white;
+}
+
+abbr {
+  text-decoration: underline;
+  text-decoration-style: dashed;
+  text-decoration-color: red;
+}
+
+code {
+  font-family: "Courier New", monospace;
+}
+
+footer {
+  color: gray;
+  margin: 10px auto;
+  font-size: 80%;
+  text-align: center;
+}
+
+p.poznamka {
+  border-left: 10px solid gray;
+  padding-left: 50px;
+  font-size: 90%;
+  font-style: italic;
+}
+
+
+
